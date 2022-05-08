@@ -1,0 +1,37 @@
+﻿@model IEnumerable<StudyLJ.Models.Movie>
+
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Movies</h1>
+@if (!Model.Any())
+{
+    <p>We don't have any Movie yet.</p>
+}
+else
+{
+    <table class="table table-hover">
+        <thead>
+        <tr class="table-bordered alert-info">
+            <th>Movie</th>
+            <th>Genre</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr class="table-bordered active">
+                <td>
+                    @Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)
+                </td>
+                <td>
+                    @movie.Genre.Name
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<StudyLJ.Models.Customer>
+
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Customers</h1>
+
+@if (!Model.Any())
+{
+    <p>We don't have any Customer yet.</p>
+}
+else
+{
+<table class="table table-hover">
+    <thead>
+        <tr class="table-bordered alert-info">
+            <th>Customer</th>
+            <th>Discount Rate</th>
+            <th>Membership Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+        <tr class="table-bordered active">
+            <td>
+                @Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)
+            </td>
+            <td>
+                @customer.MembershipType.DiscountRate %
+            </td>
+            <td>
+                @customer.MembershipType.Name
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+}
+
