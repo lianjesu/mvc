@@ -41,6 +41,56 @@ namespace StudyLJ.Controllers
             return View(movie);
         }
 
+        
+        public ActionResult New()
+        {
+            var genres = this._context.Genres.ToList();
+            var viewModel = new MovieFormViewModel()
+            {
+                Genres = genres
+            };
+            return View("MovieForm",viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+            {
+                movie.DateAdded = DateTime.Now;
+                this._context.Movies.Add(movie);
+            }
+            else
+            {
+                var movieInDB = this._context.Movies.Single(m => m.Id == movie.Id);
+                
+                movieInDB.Name = movie.Name;
+                movieInDB.Genre = movie.Genre;  
+                movieInDB.NumberInStock = movie.NumberInStock;
+                movieInDB.ReleaseDate = movie.ReleaseDate;
+            }
+            this._context.SaveChanges();
+
+            return RedirectToAction("Index","Movies");
+        }
+
+        public ActionResult Edit(int id)
+        {
+            var movie = this._context.Movies.FirstOrDefault(m =>m.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
+            var viewModel = new MovieFormViewModel()
+            {
+                Movie = movie,
+                Genres = this._context.Genres.ToList()
+            };
+
+            return View("MovieForm",viewModel);
+        }
+
+
         /*
         // GET: Movies/Random
         public ActionResult Random()
@@ -90,5 +140,7 @@ namespace StudyLJ.Controllers
             return Content(year + "/" + month);
         }
         */
+
+
     }
 }
