@@ -115,8 +115,11 @@ E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\ob
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddNameToMembershipType.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateNameOnMembershipType.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddCustomerBirthdate.resources
-E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddGenreModel.resources
-E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddMovieTable.resources
-E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateMoviesAndGenreTables.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.UpdatingMovieTable.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateGenreAndMovie.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddingReleaseDateDateAddAndNumberInStockToMovies1.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateMovieWithNewFields1.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.CreateGenreAndMovie.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateGenreAndMovie1.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddingReleaseDateDateAddAndNumberInStockToMovies.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateMovieWithNewFields.resources

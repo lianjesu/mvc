@@ -1,4 +1,5 @@
-﻿@model IEnumerable<StudyLJ.Models.Movie>
+﻿@using System.Activities.Expressions
+@model IEnumerable<StudyLJ.Models.Movie>
 
 @{
     ViewBag.Title = "Movies";
@@ -12,6 +13,10 @@
 }
 else
 {
+    @Html.ActionLink( "NEW MOVIE", "New", "Movies", null,new { @class = "btn btn-primary" });
+
+    <hr/>
+
     <table class="table table-hover">
         <thead>
         <tr class="table-bordered alert-info">
@@ -24,7 +29,7 @@ else
         {
             <tr class="table-bordered active">
                 <td>
-                    @Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)
+                    @Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)
                 </td>
                 <td>
                     @movie.Genre.Name
