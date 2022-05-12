@@ -123,3 +123,12 @@ E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\ob
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateGenreAndMovie1.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.AddingReleaseDateDateAddAndNumberInStockToMovies.resources
 E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.PopulateMovieWithNewFields.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\obj\Debug\StudyLJ.Migrations.UpdatingBirthdateFielOnCustomer.resources
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Net.Http.Formatting.dll
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Web.Http.dll
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Web.Http.WebHost.dll
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Net.Http.Formatting.xml
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Web.Http.xml
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\System.Web.Http.WebHost.xml
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\AutoMapper.dll
+E:\DOCS\BIBLIOGRAFIA\C#\The Complete ASP.NET MVC 5 Course\MVC\StudyLJ\StudyLJ\bin\AutoMapper.xml
