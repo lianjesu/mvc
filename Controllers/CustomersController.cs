@@ -48,6 +48,7 @@ namespace StudyLJ.Controllers
             var membershipTypes = this._context.MembershipTypes.ToList();
             var viewModel = new CustomerFormViewModel()
             {
+                Customer = new Customer(),
                 MembershipTypes = membershipTypes
             };
 
@@ -55,6 +56,7 @@ namespace StudyLJ.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
             //making Validations
